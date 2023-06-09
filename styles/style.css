@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root{
+    --main-font-color: #ffffff;
+    --main-font: 'Inter', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-image: url(/aluraPlus/assets/Background.png);
+    background-repeat: no-repeat;
+    background-color: #00030C;
+    background-size: 2100px 710px;
+    background-position: left 100% bottom 100%;
+}
+
+.introduction{
+    padding: 9% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.introduction__section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 35%;
+    gap: 54px;
+}
+.introduction__section__division{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 22px;
+}
+.introduction__section__division2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.introduction__section__title{
+    font-family: var(--main-font);
+    font-size: 1.75rem;
+    color: var(--main-font-color);
+    font-weight: 700;
+    text-align: center;
+}
+.introduction__section__button1{
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid #167BF7;
+    background-color: #167BF7;
+    padding: 16px 150px;
+    text-align: center;
+}
+
+.introduction__section__button2{
+    font-family: var(--main-font);
+    color:var(--main-font-color);
+    font-size: 1rem;
+    font-weight: 400;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+    padding: 16px 164px;
+    text-align: center;
+}
+
+.introduction__section__paragraph{
+    font-family: var(--main-font);
+    color: #C0C0C0;
+    font-size: 0.75rem;
+    font-weight: 400;
+
+}
