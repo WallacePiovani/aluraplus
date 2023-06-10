@@ -1,9 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
 
 :root{
     --main-font-color: #ffffff;
-    --main-font: 'Inter', sans-serif;
+    --secondary-font-color: #C0C0C0;
+    --button-color: #167BF7;
+    --main-font:'Inter', sans-serif;
+
 }
 
 *{
@@ -16,7 +20,7 @@ body{
     background-image: url(/aluraPlus/assets/Background.png);
     background-repeat: no-repeat;
     background-color: #00030C;
-    background-size: 2100px 710px;
+    background-size: 2100px 770px;
     background-position: left 100% bottom 100%;
 }
 
@@ -43,6 +47,13 @@ body{
     justify-content: space-between;
     gap: 22px;
 }
+.introduction__section__title{
+    font-family: var(--main-font);
+    font-size: 1.75rem;
+    color: var(--main-font-color);
+    font-weight: 700;
+    text-align: center;
+}
 .introduction__section__division2{
     display: flex;
     flex-direction: column;
@@ -51,23 +62,17 @@ body{
     gap: 16px;
 }
 
-.introduction__section__title{
-    font-family: var(--main-font);
-    font-size: 1.75rem;
-    color: var(--main-font-color);
-    font-weight: 700;
-    text-align: center;
-}
 .introduction__section__button1{
     font-family: var(--main-font);
     color: var(--main-font-color);
     font-size: 1rem;
     font-weight: 400;
     border-radius: 8px;
-    border: 1px solid #167BF7;
-    background-color: #167BF7;
+    background-color: var(--button-color);
     padding: 16px 150px;
     text-align: center;
+    text-decoration: none;
+    width: 43%;
 }
 
 .introduction__section__button2{
@@ -77,14 +82,46 @@ body{
     font-weight: 400;
     border-radius: 8px;
     border: 1px solid #FFFFFF;
-    padding: 16px 164px;
+    padding: 16px 150px;
     text-align: center;
+    text-decoration: none;
+    width: 43%;
 }
 
 .introduction__section__paragraph{
     font-family: var(--main-font);
-    color: #C0C0C0;
+    color: var(--secondary-font-color);
     font-size: 0.75rem;
     font-weight: 400;
 
+}
+
+.introduction__product{
+    padding: 9% 9%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 100px;
+
+}
+.introduction__product__division{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 55%;
+
+}
+
+.introduction__product__h1{
+    font-family: var(--main-font);
+    color: var(--main-font-color);
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.introduction__product__p{
+    font-family: var(--main-font);
+    color: var(--secondary-font-color);
+    font-weight: 400;
+    font-size: 1rem;
 }
