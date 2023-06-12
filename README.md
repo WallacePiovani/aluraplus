@@ -7,7 +7,3 @@
 * Flex-box
 
 * Grid Layout
-
-## Feito por:
-
-### Wallace Piovani
